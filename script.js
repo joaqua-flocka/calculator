@@ -53,7 +53,10 @@ operators.forEach((button) => {
     button.addEventListener('click', () => {
         if(inputs[0] == '')
             alert('ERROR, INPUT A NUMBER FIRST');
-        else{
+        else if(inputs[0] && inputs[1] && inputs[2]){
+            inputs = [operate(inputs[0],inputs[1],inputs[2]),'',button.textContent];
+            updateDisplay(inputs[0],display);
+        } else{
             inputs[2] = button.textContent;
             firstNum = true;
         }
