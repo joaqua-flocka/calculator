@@ -68,7 +68,8 @@ button {
 }
 
 .number {
-    padding: 2rem;
+  /*  padding: 2rem; */
+    width: 6rem;
 }
 
 .actionsBox {
