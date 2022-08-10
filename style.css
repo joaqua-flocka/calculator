@@ -21,11 +21,23 @@ body {
     padding: 1rem;
 }
 
-.display {
+.displayBox {
     display: flex;
     flex: 1;
+    justify-content: flex-end;
     background-color: white;
     padding: 2rem;
+    max-height: 2rem;
+}
+
+.display {
+    display: flex;
+    flex: 0;
+    background-color: white;
+    font-size: 2rem;
+    text-align: right;
+    height: 2rem;
+    max-height: 2rem;
 }
 
 .boxBox {
