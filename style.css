@@ -5,6 +5,10 @@ body {
     justify-content: center;
 }
 
+button {
+    font-size: 3rem;
+}
+
 .container {
     display: flex;
     flex: 1 0;
@@ -25,19 +29,20 @@ body {
     display: flex;
     flex: 1;
     justify-content: flex-end;
+    align-items: center;
     background-color: white;
-    padding: 2rem;
-    max-height: 2rem;
+    padding: 2rem 4rem;
+    max-height: 6rem;
 }
 
 .display {
     display: flex;
     flex: 0;
     background-color: white;
-    font-size: 2rem;
+    font-size: 4rem;
     text-align: right;
-    height: 2rem;
-    max-height: 2rem;
+    height: 4rem;
+    max-height: 4rem;
 }
 
 .boxBox {
