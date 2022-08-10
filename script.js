@@ -67,10 +67,12 @@ operators.forEach((button) => {
 let display = document.querySelector('.display');
 let submit = document.querySelector('.submit');
 submit.addEventListener('click', () => {
-    display.textContent = '';
-    display.textContent = (operate(inputs[0],inputs[1],inputs[2]));
-    inputs = [display.textContent,'','']
-    firstNum = true;
+    if(inputs[1]){
+        display.textContent = '';
+        display.textContent = (operate(inputs[0],inputs[1],inputs[2]));
+        inputs = [display.textContent,'','']
+        firstNum = true;
+    }
 });
 
 let clear = document.querySelector('.clear');

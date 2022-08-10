@@ -34,7 +34,7 @@ button {
     justify-content: flex-end;
     align-items: center;
     background-color: white;
-    padding: 2rem 4rem;
+    padding: 2rem;
     max-height: 6rem;
     border-radius: 25px;
 }
@@ -72,7 +72,7 @@ button {
 
 .number {
   /*  padding: 2rem; */
-    width: 7.5rem;
+    width: 8rem;
 }
 
 .actionsBox {
